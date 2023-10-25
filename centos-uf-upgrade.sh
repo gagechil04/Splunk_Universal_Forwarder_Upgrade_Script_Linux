@@ -17,7 +17,7 @@ sleep 60
 sudo tar -zxvf /tmp/splunkforwarder-9.1.1-Linux-x86_64.tgz -C /opt &&
 sleep 25
 
-#Assign Splunk permissions
+#Assign Splunk permissions to the "splunkforwarder" directory
 chown -R splunk:splunk /opt/splunkforwarder &&
 
 #Install new Splunk version
