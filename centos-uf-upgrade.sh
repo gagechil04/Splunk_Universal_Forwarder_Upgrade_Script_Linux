@@ -5,6 +5,10 @@ cd /tmp &&
 wget -O splunkforwarder-9.1.1-Linux-x86_64.tgz "https://download.splunk.com/products/universalforwarder/releases/9.1.1/linux/splunkforwarder-9.1.1-Linux-x86_64.tgz" &&
 sleep 30
 
+## Assign Splunk permissions to installer
+chown -R splunk:splunk /tmp/splunkforwarder-9.1.1-Linux-x86_64.tgz &&
+sleep 5
+
 ## Stopping the Splunkd service
 sudo /opt/splunkforwarder/bin/splunk stop &&
 sleep 60
