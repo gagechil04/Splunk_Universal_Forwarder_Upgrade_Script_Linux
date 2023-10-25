@@ -1,7 +1,7 @@
 # Splunk-Universal-Forwarder-Upgrade-Script-Linux
 
 ## Overview
-<br>Run as root, the script will assign appropriate permissions.
+<br>Run as root, the script will assign assign the "Splunk" user/group the necessary permissions. If you are running your universal forwarder as a different user, please modify the script to reflect so.
 
 <br />Note the lines below regarding the deployment server configuration, this can be removed/commented out if not applicable. The reason for using echo commands was due to issues with Splunk asking for the password after running "splunk set deploy-poll <IP_address/hostname>:<management_port>". 
 
