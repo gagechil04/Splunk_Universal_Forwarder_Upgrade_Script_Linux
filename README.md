@@ -5,7 +5,7 @@
 
 <br />
 
-## You will need to make a couple modifications within the script such as:
+## You will need to make a couple modifications within the script:
 <br />• Copy/Paste a legitimate wget command from Splunk, I shortened the URL here for readability - (Line 5)
 <br />• Paste the full file name of the tgz installer, you can reference your wget command to find this (Line 13)
 
