@@ -9,3 +9,9 @@
 <br />• Copy/Paste a legitimate wget command from Splunk, I shortened the URL here for readability - (Line 5)
 <br />• Paste the full file name of the tgz installer, you can reference your wget command to find this (Line 13)
 
+<br />
+
+## If you are running Splunk as a user other than "Splunk", make those changes to the following lines:
+<br />• Copy/Paste a legitimate wget command from Splunk, I shortened the URL here for readability - (Line 5)
+<br />• Paste the full file name of the tgz installer, you can reference your wget command to find this (Line 13)
+
