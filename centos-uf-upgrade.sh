@@ -2,7 +2,7 @@
 
 ## Downloading the Splunk Universal Forwarder Software
 cd /tmp &&
-wget -O splunkforwarder-9.1.1-64e843ea36b1-Linux-x86_64.tgz "https://download.splunk.com/products/universalforwarder/releases/9.1.1/linux/splunkforwarder-9.1.1-64e843ea36b1-Linux-x86_64.tgz" &&
+wget -O splunkforwarder-9.1.1-Linux-x86_64.tgz "https://download.splunk.com/products/universalforwarder/releases/9.1.1/linux/splunkforwarder-9.1.1-Linux-x86_64.tgz" &&
 sleep 30
 
 ## Stopping the Splunkd service
@@ -10,7 +10,7 @@ sudo /opt/splunkforwarder/bin/splunk stop &&
 sleep 60
 
 ## Extract new version of Splunk
-sudo tar -zxvf /tmp/splunkforwarder-9.1.1-64e843ea36b1-Linux-x86_64.tgz -C /opt &&
+sudo tar -zxvf /tmp/splunkforwarder-9.1.1-Linux-x86_64.tgz -C /opt &&
 sleep 25
 
 #Assign Splunk permissions
