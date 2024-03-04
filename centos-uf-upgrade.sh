@@ -21,6 +21,6 @@ sleep 25
 chown -R splunk:splunk /opt/splunkforwarder &&
 
 #Install new Splunk version
-/opt/splunkforwarder/bin/splunk start --accept-license --answer-yes --no-promt --SPLUNKUSERNAME=splunk --gen-and-print-passwd &&
+/opt/splunkforwarder/bin/splunk start --accept-license --answer-yes --no-promt &&
 sleep 40
 
