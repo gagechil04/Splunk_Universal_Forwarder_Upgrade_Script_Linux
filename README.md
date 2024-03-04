@@ -1,7 +1,7 @@
 # Splunk-Universal-Forwarder-Upgrade-Script-Linux
 
 ## Overview
-<br>Run the script as root or a user with sudo priviliges, the script will assign assign the "Splunk" user/group the necessary permissions. If you are running your universal forwarder as a different user, please modify the script to reflect so.
+<br>Run the script as root or a user with sudo priviliges, the script will assign the "Splunk" user/group the necessary permissions. If you are running your universal forwarder as a different user, please modify the script to reflect so.
 
 <br />
 
